@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Domain", "Shopee.Domain\Shopee.Domain.csproj", "{A31764C6-6DAB-4829-936E-87CBE8175BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Infrastructure", "Shopee.Infrastructure\Shopee.Infrastructure.csproj", "{0C37BE32-B212-49F2-927D-249186D93BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Application", "Shopee.Application\Shopee.Application.csproj", "{1F5930E4-208B-4390-AC05-0192A10F36D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.API", "Shopee.API\Shopee.API.csproj", "{D978FD57-DB6B-4402-B24F-63B157FFCFDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31764C6-6DAB-4829-936E-87CBE8175BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31764C6-6DAB-4829-936E-87CBE8175BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31764C6-6DAB-4829-936E-87CBE8175BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31764C6-6DAB-4829-936E-87CBE8175BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C37BE32-B212-49F2-927D-249186D93BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C37BE32-B212-49F2-927D-249186D93BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C37BE32-B212-49F2-927D-249186D93BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C37BE32-B212-49F2-927D-249186D93BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5930E4-208B-4390-AC05-0192A10F36D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5930E4-208B-4390-AC05-0192A10F36D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5930E4-208B-4390-AC05-0192A10F36D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5930E4-208B-4390-AC05-0192A10F36D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D978FD57-DB6B-4402-B24F-63B157FFCFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D978FD57-DB6B-4402-B24F-63B157FFCFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D978FD57-DB6B-4402-B24F-63B157FFCFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D978FD57-DB6B-4402-B24F-63B157FFCFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
