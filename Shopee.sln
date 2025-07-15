@@ -4,11 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Domain", "Shopee.Domain\Shopee.Domain.csproj", "{A31764C6-6DAB-4829-936E-87CBE8175BA8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0C37BE32-B212-49F2-927D-249186D93BCC} = {0C37BE32-B212-49F2-927D-249186D93BCC}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Infrastructure", "Shopee.Infrastructure\Shopee.Infrastructure.csproj", "{0C37BE32-B212-49F2-927D-249186D93BCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F5930E4-208B-4390-AC05-0192A10F36D7} = {1F5930E4-208B-4390-AC05-0192A10F36D7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Application", "Shopee.Application\Shopee.Application.csproj", "{1F5930E4-208B-4390-AC05-0192A10F36D7}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -19,6 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.API", "Shopee.API\Sh
 	ProjectSection(ProjectDependencies) = postProject
 		{0C37BE32-B212-49F2-927D-249186D93BCC} = {0C37BE32-B212-49F2-927D-249186D93BCC}
 		{1F5930E4-208B-4390-AC05-0192A10F36D7} = {1F5930E4-208B-4390-AC05-0192A10F36D7}
+		{A31764C6-6DAB-4829-936E-87CBE8175BA8} = {A31764C6-6DAB-4829-936E-87CBE8175BA8}
 	EndProjectSection
 EndProject
 Global
