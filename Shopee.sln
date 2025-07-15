@@ -22,6 +22,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.API", "Shopee.API\Sh
 		{A31764C6-6DAB-4829-936E-87CBE8175BA8} = {A31764C6-6DAB-4829-936E-87CBE8175BA8}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{756E02B5-F232-48CA-BF5E-46EA4E1B86F9}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
